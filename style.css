@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    outline: none;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    border:none;
+
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+.container .content {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+.container .content h1{
+    padding: 10px 50px 35px 5px;
+}
+
+.container .content h1 span{
+   background-color: crimson;
+   color: white;
+}
+.container .content .btn{
+    padding: 10px 20px;
+    display: inline;
+    font-size: 20px;
+background: coral;
+margin: 0px 5px;
+}
